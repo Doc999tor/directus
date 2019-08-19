@@ -14,7 +14,6 @@ composer.phar
 composer.lock
 
 # Ignore configuration files
-/config/*
 !/config/migrations.php
 !/config/migrations.upgrades.php
 !/config/api_sample.php
@@ -24,7 +23,7 @@ composer.lock
 /documents
 
 # Custom extensions
-/public/extensions/custom/*/*
+# /public/extensions/custom/*/*
 
 ##  Auth
 /public/extensions/custom/auth
